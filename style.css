@@ -1,0 +1,25 @@
+#name {
+    padding: 10px;
+    background-color: cadetblue;
+    color: white;
+}
+
+h1{
+    padding: 50px;
+}
+
+footer{
+    color: aquamarine;
+    background-color: dimgrey;
+    padding: 10px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    border-style: solid;
+}
+
+
+body {
+    background-image: url("https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Simple-White-Pattern-Background-Image.jpg");
+    background-color: #cccccc;
+   }
