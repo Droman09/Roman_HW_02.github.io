@@ -4,22 +4,41 @@
     color: white;
 }
 
+.jumbotron{
+    padding-top: 2rem;
+    margin-top: 2rem;
+    background-color: white;
+}
+
 h1{
-    padding: 50px;
+    color: cadetblue;
+    padding-top: 0%;
 }
 
-footer{
-    color: aquamarine;
-    background-color: dimgrey;
-    padding: 10px;
-    display: inline-block;
-    width: 100%;
-    text-align: center;
-    border-style: solid;
-}
+#gate{
+    height: 200px;
+    width: 500px;
 
+}
 
 body {
     background-image: url("https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Simple-White-Pattern-Background-Image.jpg");
     background-color: #cccccc;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
    }
+
+button{
+    background-color: cadetblue;
+}
+
+p{
+    display: inline;
+}
+
+.port{
+    height: 200px;
+    width: 50px;
+}
