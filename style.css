@@ -5,10 +5,12 @@
 }
 
 .jumbotron{
-    padding-top: 2rem;
+    padding: 2rem;
     margin-top: 2rem;
     background-color: white;
 }
+
+
 
 h1{
     color: cadetblue;
@@ -16,9 +18,10 @@ h1{
 }
 
 #gate{
+    padding-right: 2rem;
+    float: left;
     height: 200px;
-    width: 500px;
-
+    width: 320px;
 }
 
 body {
@@ -30,15 +33,38 @@ body {
     background-size: cover;
    }
 
-button{
+.btn-primary{
     background-color: cadetblue;
+    border-color: white;
+}
+
+.row{
+    padding: 2rem 2rem;
 }
 
 p{
-    display: inline;
+    padding: 0%;
 }
 
 .port{
     height: 200px;
     width: 50px;
+}
+
+#no-pad {
+    padding: 0px ;
+}
+
+p.wrap{
+    word-wrap: break-word;
+}
+
+@media screen and (max-width: 993px){
+    #gate{
+        padding-bottom: 1rem;
+        padding-right: 0px;
+        height: none;
+        width: none;
+        float: none;
+    }
 }
