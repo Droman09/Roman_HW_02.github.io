@@ -4,24 +4,23 @@
     color: white;
 }
 
-.jumbotron{
-    padding: 2rem;
-    margin-top: 2rem;
-    background-color: white;
-}
-
-
-
-h1{
-    color: cadetblue;
-    padding-top: 0%;
-}
+/* inside the container  */
 
 #gate{
     padding-right: 2rem;
     float: left;
     height: 200px;
     width: 320px;
+}
+h1{
+    color: cadetblue;
+    padding-top: 0%;
+}
+
+.jumbotron{
+    padding: 2rem;
+    margin-top: 2rem;
+    background-color: white;
 }
 
 body {
@@ -33,6 +32,16 @@ body {
     background-size: cover;
    }
 
+p{
+    padding: 0%;
+}
+
+p.wrap{
+    word-wrap: break-word;
+}
+
+
+
 .btn-primary{
     background-color: cadetblue;
     border-color: white;
@@ -40,10 +49,6 @@ body {
 
 .row{
     padding: 2rem 2rem;
-}
-
-p{
-    padding: 0%;
 }
 
 .port{
@@ -55,10 +60,7 @@ p{
     padding: 0px ;
 }
 
-p.wrap{
-    word-wrap: break-word;
-}
-
+/* image size change  */
 @media screen and (max-width: 993px){
     #gate{
         padding-bottom: 1rem;
@@ -67,4 +69,10 @@ p.wrap{
         width: none;
         float: none;
     }
+}
+@media screen and (max-width: 775px){
+    .chi1{
+        padding-bottom: 4rem;
+    }
+    
 }
