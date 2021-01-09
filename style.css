@@ -59,7 +59,7 @@ p.wrap{
 }
 
 .row{
-    padding: 0 2rem;
+    padding: 0;
 }
 
 .port{
@@ -67,9 +67,6 @@ p.wrap{
     width: 50px;
 }
 
-#no-pad {
-    padding: 0px ;
-}
 
 /* footer {
     ;
@@ -87,6 +84,16 @@ p.wrap{
         width: none;
         float: none;
     }
+    .jumbotron{
+        padding: 2rem 0;
+    }
+    div.row{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    i{
+        margin-left: 3rem;
+       }
 }
 @media screen and (max-width: 775px){
     .chi1{
