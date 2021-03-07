@@ -4,16 +4,7 @@
     color: white;
 }
 
-.responsive{
-    display: none;
-}
-
 /* inside the container  */
-
-ul {
-    list-style: none;
-}
-
 
 i{
  margin-left: 1rem;
@@ -26,15 +17,6 @@ i{
     width: 300px;
     
 }
-
-#gate2{
-    padding-right: 2rem;
-    float: left;
-    height: 100%;
-    width: 60%;
-    
-}
-
 
 #hover:hover{
     opacity: .5;
@@ -95,18 +77,12 @@ footer {
 
 /* image size change  */
 @media screen and (max-width: 993px){
-    .list{
-     display: none;
-    }
-
-    .responsive{
-        display: block;
-    }
-   
     #gate{
-      width: 100%;
-      height: auto;
-      text-align: center;
+        padding-bottom: 1rem;
+        padding-right: 0px;
+        height: none;
+        width: none;
+        float: none;
     }
     .jumbotron{
         padding: 2rem 0;
@@ -125,4 +101,3 @@ footer {
     }
     
 }
-
